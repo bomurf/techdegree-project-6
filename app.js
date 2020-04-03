@@ -3,6 +3,14 @@ const phrase = document.getElementById("phrase");
 const btn_reset = document.getElementsByClassName("btn-reset");
 let missed = 0;
 
+let phrases = [
+  "baba booey",
+  "hit em with the hein",
+  "hey now",
+  "a sheep in sheeps clothing",
+  "zero point zero"
+];
+
 // return a random phrase from an array
 const getRandomPhraseAsArray = arr => {};
 
